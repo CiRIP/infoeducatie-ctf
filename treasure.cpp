@@ -10,6 +10,7 @@
 #include <fstream>
 
 int main(int argc, const char * argv[]) {
+    // input.txt was modified so that we only have the numbers, and no extra coordinate and movement crap
     std::ifstream fin("input.txt");
     
     int x, y, a, b;
